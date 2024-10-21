@@ -648,10 +648,16 @@ body {
 	border-bottom: 2px solid white;
 }
 
-.hideme
-{
-    opacity: 0;
-    width: 15%;
+.hideme1
+{	
+	margin-left: -35%;
+	opacity: 0;
+}
+
+.hideme2
+{	
+	margin-left: 35%;
+	opacity: 0;
 }
 
 .agenda-content-time{
