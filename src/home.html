@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>The 7th Japan-Taiwan Workshop on Crustal Dynamics</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Changa' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Afacad Flux' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous">
+	</script>
+	<script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 700, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+            });
+        });
+		/*
+		function animateRows() {
+        	const rows = document.querySelectorAll('.day');
+            
+        	function callback(entry) {
+                if(entry[0].isIntersecting) {
+                  rows.forEach((row, index) => {
+                    setTimeout(() => {    	
+                        row.style.opacity = '1'; 
+                        row.style.transform = 'translateY(0)'; 
+                    }, index * 500+120); 
+                  });
+                  Obs.unobserve(entry[0].target);
+                };
+            };
+            
+            const row1 = document.getElementById("day1");
+            const Obs = new IntersectionObserver(callback);
+            const obsOptions = {threshold: 0.5}; 
+                     
+            Obs.observe(row1, obsOptions);
+
+        };
+      
+        window.onload = animateRows;
+		*/
+		
+	</script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">JTWCD7</a>        
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#page0">Home</a></li>            
+                <li><a href="#page1-header">Important Dates</a></li>
+                <li><a href="#page3-header">Workshop</a></li>
+				<li><a href="#page4-header">Field Trip</a></li>
+            </ul>   
+			<div class="burger" id="burger-menu">
+				<div class="line1" id="burger-menu1"></div>
+				<div class="line2" id="burger-menu2"></div>
+				<div class="line3" id="burger-menu3"></div>
+			</div>
+        </nav>
+		<script src="burger-menu.js"></script>
+		<script src="nav.js"></script>
+
+    </header>
+    <section class="home" id="page0">
+        <div class="home-content">           
+            <h1>The 7<sup>th</sup> JAPAN-TAIWAN WORKSHOP ON CRUSTAL DYNAMICS</h1>
+            <p>February 11-13, 2025, National Central University</p>
+            <div class="home-btn">
+                <a href="#">registration</br></a> 
+                <a href="#page2-header">abstract submission</a>
+            </div>       
+        </div>
+        <div class="home-image"></div>       
+    </section>
+    <section class="important-date" id="page1">
+        <div class="important-date-content">
+            <h1 id ="page1-header">IMPORTANT DATES</h1>			
+			<div class="calender">		
+				<div class="day day1" id="day1">
+					<h3>2024</br>NOV 15</h3>
+					<div class="event">Registration</br>Deadline</div>
+					<div class="event-btn">
+						<a href="#">registration</a> 
+					</div>
+				</div>				
+				<div class="day day2">
+					<h3>TBD</h3>
+					<div class="event">Abstract</br>Submission</br>Deadline</div>
+					<div class="event-btn">
+						<a href="#page2-header">abstract submission</a> 
+					</div>
+				</div>				
+				<div class="day day3">
+					<h3>2025</br>FEB 11-12</h3>
+					<div class="event">JTWCD7</br>Workshop</div>
+					<div class="event-btn">
+						<a href="#page3-header">workshop info</a> 
+					</div>
+				</div>				
+				<div class="day day4">
+					<h3>2025</br>FEB 13</h3>
+					<div class="event">JTWCD7</br>Field Trip</div>
+					<div class="event-btn">
+						<a href="#page4-header">field trip info</a>
+					</div>
+				</div>			
+			</div>
+        </div>
+
+    </section>	
+
+	<section  class="jtwcd-info" id="page3">
+		<div class="jtwcd-info-content">
+			<h1 id ="page3-header">WORKSHOP</h1>
+			<div class="info-chart">
+				<div class="workshop-about-location">	
+					<div class="workshop-about">	
+						<h3>ABOUT</h3>
+						<p>The 7th Japan-Taiwan Workshop on Crustal 
+							Dynamics (JTWCD7) will be held from February 11 to 13, 2025, 
+							at the National Central University in Taoyuan, Taiwan. 
+							The workshop aims to provide a forum where geoscientists can 
+							exchange their research findings, share experiences, 
+							and establish future collaborations between Taiwan and Japan 
+							across all fields of crustal dynamics. Topics such as 
+							earthquake hazard mitigation and advancements in remote 
+							sensing applications are also welcome.</p>
+						<h3>Location</h3>
+						<p>Teaching & Research Building, National Central University, No. 300, Zhongda Rd., Zhongli Dist., Taoyuan City</p>
+					</div>
+					<div class="workshop-location">				
+						<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1
+						m12!1m3!1d3616.9555856362604!2d121.19036353095015!3d24.96762570175
+						7406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468233739f55
+						66b%3A0x2e17fd11f7b15d0!2z5ZyL56uL5Lit5aSu5aSn5a24IOaVmeWtuOeglOeptue2n
+						OWQiOWkp-aokw!5e0!3m2!1sen!2stw!4v1729335299236!5m2!1sen!2stw" 
+						allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+					</div>
+				</div>
+				<div class="workshop-date">
+					<div class="agenda">
+						<div class="agenda-day1">
+							<div class="agenda-sticky-day">
+								<div class="sticky-container sticky-container1">
+									<h3>TUES</h3>
+									<p>Feb 11, 2025</p>
+								</div>
+							</div>
+							<div class="agenda-day1-content">
+								<script src="fade-in.js"></script>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">AM 8:40-9:20</div>
+									<div class="agenda-content-event">Registration and Ice Breaker</div>
+								</div>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">AM 9:20-11:00</div>
+									<div class="agenda-content-event">Opening Remarks and General Session 1</div>
+								</div>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">AM 11:15-PM 12:30</div>
+									<div class="agenda-content-event">General Session 2</div>
+								</div>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">PM 12:30-13:30</div>
+									<div class="agenda-content-event">Lunch</div>
+								</div>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">PM 13:30-15:00</div>
+									<div class="agenda-content-event">General Session 3</div>
+								</div>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">PM 15:30-17:00</div>
+									<div class="agenda-content-event">General Session 4</div>
+								</div>
+								<div class="agenda-content-row hideme1">
+									<div class="agenda-content-time">PM 17:30</div>
+									<div class="agenda-content-event">Dinner</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="agenda-day2">							
+							<div class="agenda-day2-content">
+								<div class="agenda-content-row hideme2">
+									<div class="agenda-content-time">AM 9:00-10:30</div>
+									<div class="agenda-content-event">General Session 5</div>
+								</div>
+								<div class="agenda-content-row hideme2">
+									<div class="agenda-content-time">AM 11:00-PM 12:30</div>
+									<div class="agenda-content-event">General Session 6</div>
+								</div>
+								<div class="agenda-content-row hideme2">
+									<div class="agenda-content-time">PM 12-30-13:30</div>
+									<div class="agenda-content-event">Lunch</div>
+								</div>
+								<div class="agenda-content-row hideme2">
+									<div class="agenda-content-time">PM 13:30-15:00</div>
+									<div class="agenda-content-event">Wrap-up Discussion for Future Collaborations</div>
+								</div>
+								<div class="agenda-content-row hideme2">
+									<div class="agenda-content-time">PM 15:00-15:30</div>
+									<div class="agenda-content-event">Departure for Taian, Miaoli</div>
+								</div>
+								<div class="agenda-content-row hideme2">
+									<div class="agenda-content-time">PM 18:00</div>
+									<div class="agenda-content-event">Dinner</div>
+								</div>
+							</div>
+							<div class="agenda-sticky-day">
+								<div class="sticky-container sticky-container2">
+									<h3>WED</h3>
+									<p>Feb 12, 2025</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>	
+	</section>	
+
+	<section  class="field-trip" id="page4">
+		<div class="field-trip-content">
+			<div class="field-trip-cover"  id ="page4-header">
+				<div class="field-trip-cover-text">
+					<h1>FIELD TRIP</h1>
+					<h3>Feb 12-13, 2025</h3>
+				</div>
+				<div class="field-trip-cover-main">
+					<div class="field-trip-cover-img">
+						<img id="field-trip-cover-img1" src="img/taiwan.png">
+						<img class="hideme3" id="field-trip-cover-img2" src="img/ncu.png">
+						<img class="hideme3" id="field-trip-cover-img3" src="img/miaoli_color.png">
+						<img class="hideme3" id="field-trip-cover-img4" src="img/text.png">
+						<img class="hideme3" id="field-trip-cover-img5" src="img/fault.png">
+						<img class="hideme3" id="field-trip-cover-img6" src="img/fault_text.png">
+						<img class="hideme3" id="field-trip-cover-img7" src="img/ec1.png">
+						<img class="hideme3" id="field-trip-cover-img8" src="img/ec2.png">
+						<img class="hideme3" id="field-trip-cover-img9" src="img/ec3.png">
+						<img class="hideme3" id="field-trip-cover-img10" src="img/ec4.png">
+						<img class="hideme3" id="field-trip-cover-img11" src="img/eq_text.png">
+						<img class="hideme3" id="field-trip-cover-img12" src="img/go.png">
+					</div>								
+				</div>
+			</div>
+			
+			<div class="field-trip-travel">
+				<h3>Wednesday, Feb 12, 2025</h3>					
+				<div class="field-trip-day1-pic">
+					<div class="field-trip-day1-pic1">
+						<figure><img src="img/field_trip/grass jelly.jpg" alt="仙草"></figure>
+						<h4>Grass jelly</h4>
+					</div>
+					<div class="field-trip-day1-pic2">
+						<figure><img src="img/field_trip/獅潭.jpg" alt="獅潭"></figure>
+						<h4>Shihtan fault outcrop</h4>
+					</div>
+				</div>
+				<h3>Thursday, Feb 13, 2025</h3>
+				<div class="field-trip-day2-pic">
+					<div class="field-trip-day2-pic1">
+						<figure><img src="img/field_trip/油礦陳列館.jpg" alt="油礦"></figure>
+						<h4>Chuhuangkeng Oil Mine Exhibition Hall</h4>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+    
+	<section  class="submission" id="page2">
+		<div class="submission-content">
+			<h1 id ="page2-header">ABSTRACT SUBMISSION</h1>
+			<p>COMING SOON.</p>
+			
+		</div>	
+	</section>	
+
+	
+
+</body>
+
+
+
